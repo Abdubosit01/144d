@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav{
+display: flex;
+gap: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(204, 218, 230);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div{
+width: 440px;
+height: 292px;
+}
+
+
+section div h1{
+    font-size: 45px;
+}
+
+section div p{
+font-size: 19px;
+}
+button{
+
+    width: 197px;
+    height: 49px;
+    border-radius: 30px;
+    background-color:rgb(55, 55, 255) ;
+border: none;
+color: white;
+}
+
+.man{
+text-align: center;
+width: 80%;
+margin: auto;
+}
+
+.car{
+    background-color: #dddada;
+    width: 380px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.car img,p,h3{
+    margin: 30px;
+}
+
+.car, p{
+    color: #aca6a6;
+    font-size: 16px;
+}
+.car, h3{
+font-size: 24px;
+color: black;
+}
+
+.san{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
+
+/* pseudo class */
+
+a:hover{
+color: black;
+font-weight: bolder;
+}
+
+
+.car:hover{
+    background-color: rgb(56, 56, 255);
+   
+}
+
+button:active{
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
